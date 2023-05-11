@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="DELTA">
+  <title>Patterns</title>
+  <!--Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assests/css/style.css">
+  <!-- bootstrap-css -->
+  <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <section class="contactus  mt-5 ">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="heading mt-3 p-5">
+            <h3>Ready to get started?</h3>
+
+            <form>
+              <div class="row">
+                <div class="col-6">
+                  <div class="col-md-16 col-sm-12 mb-4">
+                    <label id="ptntype" for="patterntype">Select Patterntype</label>
+                    <select class="form-control" name="patterntype" id="patterntype">
+                      <option value="SelectValue">Select Pattern Type</option>
+                      <option value="capitalcase">A</option>
+                      <option value="smallcase">a</option>
+                      <option value="numbers">1</option>
+                      <option value="star">*</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-12 col-sm-12 mb-4">
+                    <label id="patternca" for="patterncase">Select Patterncase</label>
+                    <select class="form-control" name="ptncase" id="patterncase">
+                      <option value="SelectValue">Select Pattern Case</option>
+                      <option value="upwardPyramid">upside</option>
+                      <option value="downwardPyramid">Downward</option>
+                      <option value="bothPyramid">Both</option>
+                      <option value="leftTriangle">LeftTriangle</option>
+                      <option value="rightTriangle">RightTriangle</option>
+                    </select>
+                  </div>
+
+
+                  <div class=" col-md-12 col-sm-12 mb-4 ">
+                    <label id="patterncase" for="rows">Enter Number of rows:</label>
+                    <input class="form-control" type="text" name="name" id="rows" placeholder="Enter Rows"
+                      maxlength="1">
+                  </div>
+                  <div>
+                    <button class="btn btn-primary" type="button" name="button" onclick="printPattern()">Click
+                      here</button>
+
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="assests/js/bootstrap.bundle.min.js"></script>
+  <script src="hii.js" charset="utf-8"></script>
+</body>
+
+</html>
