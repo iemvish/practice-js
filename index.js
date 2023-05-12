@@ -78,18 +78,18 @@
 // // }
 // // findMaxNumber(arr,1)
 
-// // let arr = [1,2,0,2,4,0,4,2,0,1,5]
-// // let store = []
-// // const duplicated =[]
-// // for(let i=0; i<arr.length; i++){
-// //     if(store.includes(arr[i])){
-// //         if(!duplicated.includes(arr[i]))
-// //        duplicated.push(arr[i])
-// //     }
-// //    store.push(arr[i])
+// let arr = [1,2,0,2,4,0,4,2,0,1,5]
+// let store = []
+// const duplicated =[]
+// for(let i=0; i<arr.length; i++){
+//     if(store.includes(arr[i])){
+//         if(!duplicated.includes(arr[i]))
+//        duplicated.push(arr[i])
+//     }
+//    store.push(arr[i])
 
-// // }
-// // console.log(duplicated)
+// }
+// console.log(duplicated)
 
 
 // // let arr = [2, 3, 4, 0, 0, 5, 4, 3, 2];

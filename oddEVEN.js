@@ -1,4 +1,12 @@
-// const arrayy=[1,2,3,4,5,6,7,8,9];
+const arrayy=[1,2,3,4,5,6,7,8,9];
+arrayy.filter((num)=>{
+    num%2==0? console.log("Even"):console.log("odd");
+});
+
+
+
+
+
 // const evenNumbers=[];
 // const oddNumbers=[];
 
@@ -36,10 +44,10 @@
   
 
 
-const nums = [1.23, 4.56, 7.89, 2.34];
+// const nums = [1.23, 4.56, 7.89, 2.34];
 
 
-const sum = nums.reduce((acc, curr) => acc + curr, 0);
-const roundedSum = sum.toFixed(2);
+// const sum = nums.reduce((acc, curr) => acc + curr, 0);
+// const roundedSum = sum.toFixed(2);
 
-console.log(roundedSum); 
+// console.log(roundedSum); 

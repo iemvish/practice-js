@@ -1,15 +1,15 @@
-// // // // let duplicate = (arr) => {
-// // //     const arr = [1,1,2]
-// // //     for (let i = 0; i < arr.length-1; i++) {
-// // //         for (let j = 0; j < i; j++) {
-// // //             if ((arr[i] == arr[j]) && (i != j)){
+// // let duplicate = (arr) => {
+//     const arr = [1,1,2]
+//     for (let i = 0; i < arr.length-1; i++) {
+//         for (let j = 0; j < i; j++) {
+//             if ((arr[i] == arr[j]) && (i != j)){
 
-// // //                 console.log("UnDuplicate value are",arr[j+1])
-// // //             }
-// // //         }
-// // //     }
+//                 console.log("UnDuplicate value are",arr[j+1])
+//             }
+//         }
+//     }
 
-// // // // }
+// // }
 
 
 // // // //second-proggram
@@ -90,10 +90,10 @@
 // }
 // console.log(sum)
 
-const arr=[39.42,49.256,50.3946,7,9,25.675]
-sum=1
-for(let i=0;i<arr.length;i++){
-    sum+=arr[i]
-}
-// let sum12=sum.toFixed(2)
-console.log(sum.toFixed)
+// const arr=[39.42,49.256,50.3946,7,9,25.675]
+// sum=1
+// for(let i=0;i<arr.length;i++){
+//     sum+=arr[i]
+// }
+// // let sum12=sum.toFixed(2)
+// console.log(sum.toFixed)
