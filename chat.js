@@ -40,4 +40,8 @@
 //     }
 // }
 // console.log(arr)
-console.log("Make a pull request")
+// console.log("Make a pull request")
+function msg(){
+    alert("hello bawa");
+}
+msg();
