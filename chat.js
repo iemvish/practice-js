@@ -27,16 +27,17 @@
 // console.log(sub)
 
 
-let array = [1, , 2, 3, , 4, 5, 6, 7]
-let arr = array.toString().split("");
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === ',') {
-        if (Number(i) % 2 == 0) {
-            arr[i] = "even"
-        }
-        else {
-            arr[i] = "odd"
-        }
-    }
-}
-console.log(arr)
+// let array = [1, , 2, 3, , 4, 5, 6, 7]
+// let arr = array.toString().split("");
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === ',') {
+//         if (Number(i) % 2 == 0) {
+//             arr[i] = "even"
+//         }
+//         else {
+//             arr[i] = "odd"
+//         }
+//     }
+// }
+// console.log(arr)
+console.log("Make a pull request")
